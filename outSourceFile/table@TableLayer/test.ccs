@@ -1,0 +1,34 @@
+<Solution>
+  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="table">
+          <PlistImageFolder Name=".table_PList.Dir" Image="table.png" PListFile="table.plist">
+            <PlistImageFile Name="btn_start.png" Key="btn_start.png"/>
+            <PlistImageFile Name="sp_res_bean.png" Key="sp_res_bean.png"/>
+            <PlistImageFile Name="sp_pointer_bg.png" Key="sp_pointer_bg.png"/>
+            <PlistImageFile Name="sp_bottom_tip.png" Key="sp_bottom_tip.png"/>
+            <PlistImageFile Name="sp_pointer.png" Key="sp_pointer.png"/>
+            <PlistImageFile Name="sp_res.png" Key="sp_res.png"/>
+            <PlistImageFile Name="sp_res_ingot.png" Key="sp_res_ingot.png"/>
+            <PlistImageFile Name="sp_table.png" Key="sp_table.png"/>
+            <PlistImageFile Name="sp_ring.png" Key="sp_ring.png"/>
+            <PlistImageFile Name="sp_tips.png" Key="sp_tips.png"/>
+            <PlistImageFile Name="table_sp_table.png" Key="table_sp_table.png"/>
+          </PlistImageFolder>
+          <Image Name="tab_atlas_num3.png"/>
+          <Image Name="tab_atlas_num4.png"/>
+          <Image Name="tab_atlas_num5.png"/>
+          <Image Name="tab_atlas_num6.png"/>
+          <Image Name="tab_atlas_num7.png"/>
+          <Image Name="tab_atlas_num8.png"/>
+          <Image Name="atlas_count.png"/>
+          <Image Name="atlas_res.png"/>
+          <Project Name="TableLayer.csd" Type="Layer"/>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
+

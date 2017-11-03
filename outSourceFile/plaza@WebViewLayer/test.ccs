@@ -1,0 +1,18 @@
+<Solution>
+  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="plaza">
+          <Image Name="pub_plazanotice_bg.png"/>
+          <Image Name="ad_pub_switch_noshow_02.png"/>
+          <Image Name="ad_pub_switch_noshow_01.png"/>
+          <Image Name="ad_pub_noshowtips.png"/>
+          <Image Name="pub_plazanotice_close.png"/>
+          <Project Name="WebViewLayer.csd" Type="Layer"/>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
+

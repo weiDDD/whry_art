@@ -1,0 +1,22 @@
+<Solution>
+  <PropertyGroup Name="test" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="General">
+          <Image Name="bt_cancel_0.png" />
+          <Image Name="bt_close_0.png" />
+          <Image Name="frame_0.png" />
+        </Folder>
+        <Folder Name="Option">
+          <Image Name="btn_lockmachine_0.png" />
+          <Project Name="LockMachineLayer.csd" Type="Layer" />
+          <Image Name="sp_lockmachine_bankpw.png" />
+          <Image Name="sp_lockmachine_edit.png" />
+          <Image Name="sp_lockmachine_tips.png" />
+          <Image Name="sp_lockmachine_title.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

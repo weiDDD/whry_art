@@ -1,0 +1,115 @@
+<Solution>
+  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="plaza">
+          <PlistImageFolder Name=".plaza_PList.Dir" Image="plaza.png" PListFile="plaza.plist">
+            <PlistImageFile Name="chat_texts_1.png" Key="chat_texts_1.png"/>
+            <PlistImageFile Name="btn_chong_0.png" Key="btn_chong_0.png"/>
+            <PlistImageFile Name="ani_box_0.png" Key="ani_box_0.png"/>
+            <PlistImageFile Name="chat_texts_0.png" Key="chat_texts_0.png"/>
+            <PlistImageFile Name="btn_chong_1.png" Key="btn_chong_1.png"/>
+            <PlistImageFile Name="ani_box_1.png" Key="ani_box_1.png"/>
+            <PlistImageFile Name="ani_box_3.png" Key="ani_box_3.png"/>
+            <PlistImageFile Name="ani_charge_4.png" Key="ani_charge_4.png"/>
+            <PlistImageFile Name="ani_box_10.png" Key="ani_box_10.png"/>
+            <PlistImageFile Name="chat_send.png" Key="chat_send.png"/>
+            <PlistImageFile Name="ani_box_2.png" Key="ani_box_2.png"/>
+            <PlistImageFile Name="btn_shop_1.png" Key="btn_shop_1.png"/>
+            <PlistImageFile Name="ani_box_4.png" Key="ani_box_4.png"/>
+            <PlistImageFile Name="btn_shop_0.png" Key="btn_shop_0.png"/>
+            <PlistImageFile Name="ani_box_5.png" Key="ani_box_5.png"/>
+            <PlistImageFile Name="btn_dui_1.png" Key="btn_dui_1.png"/>
+            <PlistImageFile Name="ani_box_6.png" Key="ani_box_6.png"/>
+            <PlistImageFile Name="btn_dui_0.png" Key="btn_dui_0.png"/>
+            <PlistImageFile Name="ani_box_7.png" Key="ani_box_7.png"/>
+            <PlistImageFile Name="btn_take_0.png" Key="btn_take_0.png"/>
+            <PlistImageFile Name="sp_trumpet.png" Key="sp_trumpet.png"/>
+            <PlistImageFile Name="ani_box_8.png" Key="ani_box_8.png"/>
+            <PlistImageFile Name="chat_bg.png" Key="chat_bg.png"/>
+            <PlistImageFile Name="ani_box_9.png" Key="ani_box_9.png"/>
+            <PlistImageFile Name="btn_take_1.png" Key="btn_take_1.png"/>
+            <PlistImageFile Name="btn_rank_0.png" Key="btn_rank_0.png"/>
+            <PlistImageFile Name="ani_charge_0.png" Key="ani_charge_0.png"/>
+            <PlistImageFile Name="btn_rank_1.png" Key="btn_rank_1.png"/>
+            <PlistImageFile Name="ani_charge_1.png" Key="ani_charge_1.png"/>
+            <PlistImageFile Name="ani_charge_2.png" Key="ani_charge_2.png"/>
+            <PlistImageFile Name="chag_frame.png" Key="chag_frame.png"/>
+            <PlistImageFile Name="ani_charge_3.png" Key="ani_charge_3.png"/>
+            <PlistImageFile Name="ani_plazzcoin_1.png" Key="ani_plazzcoin_1.png"/>
+            <PlistImageFile Name="btn_plaza_set_1.png" Key="btn_plaza_set_1.png"/>
+            <PlistImageFile Name="ani_plazzcoin_2.png" Key="ani_plazzcoin_2.png"/>
+            <PlistImageFile Name="btn_plaza_set_0.png" Key="btn_plaza_set_0.png"/>
+            <PlistImageFile Name="ani_plazzcoin_3.png" Key="ani_plazzcoin_3.png"/>
+            <PlistImageFile Name="ani_plazzcoin_4.png" Key="ani_plazzcoin_4.png"/>
+            <PlistImageFile Name="chat_close.png" Key="chat_close.png"/>
+            <PlistImageFile Name="ani_plazzcoin_5.png" Key="ani_plazzcoin_5.png"/>
+            <PlistImageFile Name="chat_record_1.png" Key="chat_record_1.png"/>
+            <PlistImageFile Name="ani_plazzcoin_6.png" Key="ani_plazzcoin_6.png"/>
+            <PlistImageFile Name="chat_record_0.png" Key="chat_record_0.png"/>
+            <PlistImageFile Name="ani_plazzcoin_7.png" Key="ani_plazzcoin_7.png"/>
+            <PlistImageFile Name="ani_start_0.png" Key="ani_start_0.png"/>
+            <PlistImageFile Name="ani_start_1.png" Key="ani_start_1.png"/>
+            <PlistImageFile Name="ani_start_2.png" Key="ani_start_2.png"/>
+            <PlistImageFile Name="ani_start_3.png" Key="ani_start_3.png"/>
+            <PlistImageFile Name="ani_start_4.png" Key="ani_start_4.png"/>
+            <PlistImageFile Name="ani_start_5.png" Key="ani_start_5.png"/>
+            <PlistImageFile Name="btn_friend_0.png" Key="btn_friend_0.png"/>
+            <PlistImageFile Name="ani_start_6.png" Key="ani_start_6.png"/>
+            <PlistImageFile Name="btn_bag_0.png" Key="btn_bag_0.png"/>
+            <PlistImageFile Name="btn_bag_1.png" Key="btn_bag_1.png"/>
+            <PlistImageFile Name="btn_friend_1.png" Key="btn_friend_1.png"/>
+            <PlistImageFile Name="chat_item_framebg.png" Key="chat_item_framebg.png"/>
+            <PlistImageFile Name="btn_roomlist_return.png" Key="btn_roomlist_return.png"/>
+            <PlistImageFile Name="chat_send_1.png" Key="chat_send_1.png"/>
+            <PlistImageFile Name="btn_task_0.png" Key="btn_task_0.png"/>
+            <PlistImageFile Name="btn_task_1.png" Key="btn_task_1.png"/>
+            <PlistImageFile Name="pub_btn_introduce_0.png" Key="pub_btn_introduce_0.png"/>
+            <PlistImageFile Name="btn_voice_chat_0.png" Key="btn_voice_chat_0.png"/>
+            <PlistImageFile Name="btn_voice_chat_1.png" Key="btn_voice_chat_1.png"/>
+            <PlistImageFile Name="chat_close_0.png" Key="chat_close_0.png"/>
+            <PlistImageFile Name="chat_his.png" Key="chat_his.png"/>
+            <PlistImageFile Name="plaza_top_bg.png" Key="plaza_top_bg.png"/>
+            <PlistImageFile Name="pub_btn_introduce_1.png" Key="pub_btn_introduce_1.png"/>
+            <PlistImageFile Name="pub_btn_introduce_c_0.png" Key="pub_btn_introduce_c_0.png"/>
+            <PlistImageFile Name="pub_btn_introduce_c_1.png" Key="pub_btn_introduce_c_1.png"/>
+            <PlistImageFile Name="pub_btn_introduce_title.png" Key="pub_btn_introduce_title.png"/>
+            <PlistImageFile Name="record_play_ani_3.png" Key="record_play_ani_3.png"/>
+            <PlistImageFile Name="pub_sp_introduce_bg.png" Key="pub_sp_introduce_bg.png"/>
+            <PlistImageFile Name="record_chat_begin_ani_0.png" Key="record_chat_begin_ani_0.png"/>
+            <PlistImageFile Name="record_chat_begin_ani_1.png" Key="record_chat_begin_ani_1.png"/>
+            <PlistImageFile Name="record_play_ani_1.png" Key="record_play_ani_1.png"/>
+            <PlistImageFile Name="record_play_ani_2.png" Key="record_play_ani_2.png"/>
+            <PlistImageFile Name="record_volum_aini_1.png" Key="record_volum_aini_1.png"/>
+            <PlistImageFile Name="record_volum_aini_10.png" Key="record_volum_aini_10.png"/>
+            <PlistImageFile Name="record_volum_aini_2.png" Key="record_volum_aini_2.png"/>
+            <PlistImageFile Name="record_volum_aini_3.png" Key="record_volum_aini_3.png"/>
+            <PlistImageFile Name="record_volum_aini_4.png" Key="record_volum_aini_4.png"/>
+            <PlistImageFile Name="record_volum_aini_5.png" Key="record_volum_aini_5.png"/>
+            <PlistImageFile Name="record_volum_aini_6.png" Key="record_volum_aini_6.png"/>
+            <PlistImageFile Name="record_volum_aini_7.png" Key="record_volum_aini_7.png"/>
+            <PlistImageFile Name="record_volum_aini_8.png" Key="record_volum_aini_8.png"/>
+            <PlistImageFile Name="sp_trumpet_title.png" Key="sp_trumpet_title.png"/>
+            <PlistImageFile Name="record_volum_aini_9.png" Key="record_volum_aini_9.png"/>
+            <PlistImageFile Name="sp_bean.png" Key="sp_bean.png"/>
+            <PlistImageFile Name="sp_bottom_bg.png" Key="sp_bottom_bg.png"/>
+            <PlistImageFile Name="sp_coin.png" Key="sp_coin.png"/>
+            <PlistImageFile Name="sp_crown.png" Key="sp_crown.png"/>
+            <PlistImageFile Name="sp_ingot.png" Key="sp_ingot.png"/>
+            <PlistImageFile Name="sp_lv.png" Key="sp_lv.png"/>
+            <PlistImageFile Name="sp_num_bg.png" Key="sp_num_bg.png"/>
+            <PlistImageFile Name="sp_progress_bar.png" Key="sp_progress_bar.png"/>
+            <PlistImageFile Name="sp_progress_bg.png" Key="sp_progress_bg.png"/>
+            <PlistImageFile Name="sp_trumpet_bg.png" Key="sp_trumpet_bg.png"/>
+            <PlistImageFile Name="sp_trumpet_edit.png" Key="sp_trumpet_edit.png"/>
+            <PlistImageFile Name="sp_trumpet_edit1.png" Key="sp_trumpet_edit1.png"/>
+            <PlistImageFile Name="sp_trumpet_tip.png" Key="sp_trumpet_tip.png"/>
+          </PlistImageFolder>
+          <Project Name="StartBtnAni.csd" Type="Node"/>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
+

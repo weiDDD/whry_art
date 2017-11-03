@@ -1,0 +1,15 @@
+<Solution>
+  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Checkin">
+          <Image Name="frame_vip_0.png"/>
+          <Image Name="bt_vip_confirm_0.png"/>
+          <Project Name="MemberGiftLayer.csd" Type="Layer"/>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
+

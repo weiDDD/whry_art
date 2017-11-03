@@ -1,0 +1,18 @@
+<Solution>
+  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Friend">
+          <Image Name="sp_friendlist_bg.png"/>
+          <Image Name="biaoti11.png"/>
+          <Project Name="NearFriendListLayer.csd" Type="Layer"/>
+        </Folder>
+        <Folder Name="General">
+          <Image Name="bt_close_0.png"/>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
+

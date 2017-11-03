@@ -1,0 +1,43 @@
+<Solution>
+  <PropertyGroup Name="test" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="userinfo">
+          <PlistImageFolder Image="userinfo.png" PListFile="userinfo.plist" Name=".userinfo_PList.Dir">
+            <PlistImageFile Name="btn_bg.png" Key="btn_bg.png" />
+            <PlistImageFile Name="btn_sys_head.png" Key="btn_sys_head.png" />
+            <PlistImageFile Name="btn_zdy_head.png" Key="btn_zdy_head.png" />
+            <PlistImageFile Name="qr_btn_save_0.png" Key="qr_btn_save_0.png" />
+            <PlistImageFile Name="qr_btn_save_1.png" Key="qr_btn_save_1.png" />
+            <PlistImageFile Name="qr_btn_share_0.png" Key="qr_btn_share_0.png" />
+            <PlistImageFile Name="qr_btn_share_1.png" Key="qr_btn_share_1.png" />
+            <PlistImageFile Name="qr_sp_bg.png" Key="qr_sp_bg.png" />
+            <PlistImageFile Name="qr_sp_title.png" Key="qr_sp_title.png" />
+            <PlistImageFile Name="sp_head_list.png" Key="sp_head_list.png" />
+            <PlistImageFile Name="sp_head_sel_bg.png" Key="sp_head_sel_bg.png" />
+            <PlistImageFile Name="sp_normal_frame.png" Key="sp_normal_frame.png" />
+            <PlistImageFile Name="sp_promoter_id.png" Key="sp_promoter_id.png" />
+            <PlistImageFile Name="sp_select_bg.png" Key="sp_select_bg.png" />
+            <PlistImageFile Name="sp_select_head_title.png" Key="sp_select_head_title.png" />
+            <PlistImageFile Name="sp_sys_title.png" Key="sp_sys_title.png" />
+            <PlistImageFile Name="uinfo_btn_close.png" Key="uinfo_btn_close.png" />
+            <PlistImageFile Name="uinfo_btn_contact.png" Key="uinfo_btn_contact.png" />
+            <PlistImageFile Name="uinfo_btn_copy_0.png" Key="uinfo_btn_copy_0.png" />
+            <PlistImageFile Name="uinfo_btn_copy_1.png" Key="uinfo_btn_copy_1.png" />
+            <PlistImageFile Name="uinfo_btn_cycle.png" Key="uinfo_btn_cycle.png" />
+            <PlistImageFile Name="uinfo_btn_wechat.png" Key="uinfo_btn_wechat.png" />
+            <PlistImageFile Name="uinfo_sp_copytips.png" Key="uinfo_sp_copytips.png" />
+            <PlistImageFile Name="uinfo_sp_edit_bg.png" Key="uinfo_sp_edit_bg.png" />
+            <PlistImageFile Name="uinfo_sp_giventips.png" Key="uinfo_sp_giventips.png" />
+            <PlistImageFile Name="uinfo_sp_qrtips.png" Key="uinfo_sp_qrtips.png" />
+            <PlistImageFile Name="uinfo_sp_sharebg.png" Key="uinfo_sp_sharebg.png" />
+            <PlistImageFile Name="uinfo_sp_sharetips.png" Key="uinfo_sp_sharetips.png" />
+            <PlistImageFile Name="uinfo_sp_spreadtips.png" Key="uinfo_sp_spreadtips.png" />
+          </PlistImageFolder>
+          <Project Name="QrCodeLayer.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

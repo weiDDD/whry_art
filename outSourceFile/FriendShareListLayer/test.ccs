@@ -1,0 +1,16 @@
+<Solution>
+  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Friend">
+          <Image Name="sp_friendlist_bg.png"/>
+          <Image Name="plazz_fd_sp_friendlist_title.png"/>
+          <Image Name="plazz_fd_btn_friendshare_0.png"/>
+          <Project Name="FriendShareListLayer.csd" Type="Layer"/>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
+

@@ -1,0 +1,29 @@
+<Solution>
+  <PropertyGroup Name="playerInfo" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="HelloWorld.png" />
+        <Image Name="img16.png" />
+        <Image Name="img17.png" />
+        <Image Name="img18.png" />
+        <Image Name="img19.png" />
+        <Image Name="img20.png" />
+        <Image Name="img21.png" />
+        <Image Name="img22.png" />
+        <Image Name="img23.png" />
+        <Image Name="img24.png" />
+        <Image Name="img25.png" />
+        <Image Name="img26.png" />
+        <Image Name="img27.png" />
+        <Image Name="img28.png" />
+        <Image Name="img29.png" />
+        <Image Name="img30.png" />
+        <Image Name="img31.png" />
+        <Image Name="img32.png" />
+        <Image Name="img33.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

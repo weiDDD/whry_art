@@ -1,0 +1,128 @@
+<Solution>
+  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="public">
+          <PlistImageFolder Name=".public_PList.Dir" Image="public.png" PListFile="public.plist">
+            <PlistImageFile Name="icon_public_306.png" Key="icon_public_306.png"/>
+            <PlistImageFile Name="text_public_3.png" Key="text_public_3.png"/>
+            <PlistImageFile Name="bt_isfriend_plazz.png" Key="bt_isfriend_plazz.png"/>
+            <PlistImageFile Name="icon_public_207.png" Key="icon_public_207.png"/>
+            <PlistImageFile Name="bg_kuang_game.png" Key="bg_kuang_game.png"/>
+            <PlistImageFile Name="bg_kuang_game_normal.png" Key="bg_kuang_game_normal.png"/>
+            <PlistImageFile Name="text_public_306.png" Key="text_public_306.png"/>
+            <PlistImageFile Name="icon_public_13.png" Key="icon_public_13.png"/>
+            <PlistImageFile Name="bg_kuang_plazz_normal.png" Key="bg_kuang_plazz_normal.png"/>
+            <PlistImageFile Name="text_public_206.png" Key="text_public_206.png"/>
+            <PlistImageFile Name="btn_umeng_socialize_wechat_gray.png" Key="btn_umeng_socialize_wechat_gray.png"/>
+            <PlistImageFile Name="bg_kuang_plazz.png" Key="bg_kuang_plazz.png"/>
+            <PlistImageFile Name="text_public_307.png" Key="text_public_307.png"/>
+            <PlistImageFile Name="blank.png" Key="blank.png"/>
+            <PlistImageFile Name="bt_addfriend_game.png" Key="bt_addfriend_game.png"/>
+            <PlistImageFile Name="bt_isfriend_game.png" Key="bt_isfriend_game.png"/>
+            <PlistImageFile Name="bt_addfriend_plazz.png" Key="bt_addfriend_plazz.png"/>
+            <PlistImageFile Name="btn_back_0.png" Key="btn_back_0.png"/>
+            <PlistImageFile Name="btn_back_1.png" Key="btn_back_1.png"/>
+            <PlistImageFile Name="btn_share_ryfriend_0.png" Key="btn_share_ryfriend_0.png"/>
+            <PlistImageFile Name="btn_share_ryfriend_1.png" Key="btn_share_ryfriend_1.png"/>
+            <PlistImageFile Name="icon_public_2.png" Key="icon_public_2.png"/>
+            <PlistImageFile Name="icon_public_103.png" Key="icon_public_103.png"/>
+            <PlistImageFile Name="btn_umeng_socialize_wechat.png" Key="btn_umeng_socialize_wechat.png"/>
+            <PlistImageFile Name="btn_umeng_socialize_wxcircle.png" Key="btn_umeng_socialize_wxcircle.png"/>
+            <PlistImageFile Name="p_bt_cancel_0.png" Key="p_bt_cancel_0.png"/>
+            <PlistImageFile Name="btn_umeng_socialize_wxcircle_gray.png" Key="btn_umeng_socialize_wxcircle_gray.png"/>
+            <PlistImageFile Name="icon_public_1.png" Key="icon_public_1.png"/>
+            <PlistImageFile Name="icon_public_10.png" Key="icon_public_10.png"/>
+            <PlistImageFile Name="icon_public_101.png" Key="icon_public_101.png"/>
+            <PlistImageFile Name="icon_public_3.png" Key="icon_public_3.png"/>
+            <PlistImageFile Name="icon_public_102.png" Key="icon_public_102.png"/>
+            <PlistImageFile Name="icon_public_5.png" Key="icon_public_5.png"/>
+            <PlistImageFile Name="icon_public_104.png" Key="icon_public_104.png"/>
+            <PlistImageFile Name="icon_public_4.png" Key="icon_public_4.png"/>
+            <PlistImageFile Name="icon_public_105.png" Key="icon_public_105.png"/>
+            <PlistImageFile Name="icon_public_11.png" Key="icon_public_11.png"/>
+            <PlistImageFile Name="icon_public_12.png" Key="icon_public_12.png"/>
+            <PlistImageFile Name="icon_public_308.png" Key="icon_public_308.png"/>
+            <PlistImageFile Name="icon_public_201.png" Key="icon_public_201.png"/>
+            <PlistImageFile Name="icon_public_202.png" Key="icon_public_202.png"/>
+            <PlistImageFile Name="icon_public_203.png" Key="icon_public_203.png"/>
+            <PlistImageFile Name="p_bt_close_1.png" Key="p_bt_close_1.png"/>
+            <PlistImageFile Name="icon_public_204.png" Key="icon_public_204.png"/>
+            <PlistImageFile Name="text_public_8.png" Key="text_public_8.png"/>
+            <PlistImageFile Name="p_bt_close_0.png" Key="p_bt_close_0.png"/>
+            <PlistImageFile Name="icon_public_205.png" Key="icon_public_205.png"/>
+            <PlistImageFile Name="text_public_9.png" Key="text_public_9.png"/>
+            <PlistImageFile Name="icon_public_206.png" Key="icon_public_206.png"/>
+            <PlistImageFile Name="icon_public_301.png" Key="icon_public_301.png"/>
+            <PlistImageFile Name="icon_public_208.png" Key="icon_public_208.png"/>
+            <PlistImageFile Name="text_public_4.png" Key="text_public_4.png"/>
+            <PlistImageFile Name="icon_public_209.png" Key="icon_public_209.png"/>
+            <PlistImageFile Name="text_public_5.png" Key="text_public_5.png"/>
+            <PlistImageFile Name="icon_public_210.png" Key="icon_public_210.png"/>
+            <PlistImageFile Name="icon_public_211.png" Key="icon_public_211.png"/>
+            <PlistImageFile Name="icon_public_212.png" Key="icon_public_212.png"/>
+            <PlistImageFile Name="icon_public_302.png" Key="icon_public_302.png"/>
+            <PlistImageFile Name="text_public_7.png" Key="text_public_7.png"/>
+            <PlistImageFile Name="icon_public_303.png" Key="icon_public_303.png"/>
+            <PlistImageFile Name="text_public_6.png" Key="text_public_6.png"/>
+            <PlistImageFile Name="icon_public_304.png" Key="icon_public_304.png"/>
+            <PlistImageFile Name="text_public_1.png" Key="text_public_1.png"/>
+            <PlistImageFile Name="icon_public_room_card.png" Key="icon_public_room_card.png"/>
+            <PlistImageFile Name="icon_public_305.png" Key="icon_public_305.png"/>
+            <PlistImageFile Name="icon_public_307.png" Key="icon_public_307.png"/>
+            <PlistImageFile Name="text_public_2.png" Key="text_public_2.png"/>
+            <PlistImageFile Name="icon_public_309.png" Key="icon_public_309.png"/>
+            <PlistImageFile Name="icon_public_6.png" Key="icon_public_6.png"/>
+            <PlistImageFile Name="icon_public_7.png" Key="icon_public_7.png"/>
+            <PlistImageFile Name="icon_public_8.png" Key="icon_public_8.png"/>
+            <PlistImageFile Name="icon_public_9.png" Key="icon_public_9.png"/>
+            <PlistImageFile Name="icon_public_game_score.png" Key="icon_public_game_score.png"/>
+            <PlistImageFile Name="icon_public_money.png" Key="icon_public_money.png"/>
+            <PlistImageFile Name="text_public_13.png" Key="text_public_13.png"/>
+            <PlistImageFile Name="p_bt_cancel_1.png" Key="p_bt_cancel_1.png"/>
+            <PlistImageFile Name="p_bt_sure_0.png" Key="p_bt_sure_0.png"/>
+            <PlistImageFile Name="p_bt_sure_1.png" Key="p_bt_sure_1.png"/>
+            <PlistImageFile Name="player_vip_game.png" Key="player_vip_game.png"/>
+            <PlistImageFile Name="sp_dot.png" Key="sp_dot.png"/>
+            <PlistImageFile Name="text_public_302.png" Key="text_public_302.png"/>
+            <PlistImageFile Name="sp_public_frame_0.png" Key="sp_public_frame_0.png"/>
+            <PlistImageFile Name="sp_public_frame_1.png" Key="sp_public_frame_1.png"/>
+            <PlistImageFile Name="sp_public_frame_2.png" Key="sp_public_frame_2.png"/>
+            <PlistImageFile Name="sp_top_bg.png" Key="sp_top_bg.png"/>
+            <PlistImageFile Name="text_public_10.png" Key="text_public_10.png"/>
+            <PlistImageFile Name="text_public_104.png" Key="text_public_104.png"/>
+            <PlistImageFile Name="text_public_101.png" Key="text_public_101.png"/>
+            <PlistImageFile Name="text_public_102.png" Key="text_public_102.png"/>
+            <PlistImageFile Name="text_public_103.png" Key="text_public_103.png"/>
+            <PlistImageFile Name="text_public_105.png" Key="text_public_105.png"/>
+            <PlistImageFile Name="text_public_11.png" Key="text_public_11.png"/>
+            <PlistImageFile Name="text_public_12.png" Key="text_public_12.png"/>
+            <PlistImageFile Name="text_public_201.png" Key="text_public_201.png"/>
+            <PlistImageFile Name="text_public_308.png" Key="text_public_308.png"/>
+            <PlistImageFile Name="text_public_202.png" Key="text_public_202.png"/>
+            <PlistImageFile Name="text_public_203.png" Key="text_public_203.png"/>
+            <PlistImageFile Name="text_public_204.png" Key="text_public_204.png"/>
+            <PlistImageFile Name="text_public_205.png" Key="text_public_205.png"/>
+            <PlistImageFile Name="text_public_207.png" Key="text_public_207.png"/>
+            <PlistImageFile Name="text_public_208.png" Key="text_public_208.png"/>
+            <PlistImageFile Name="text_public_301.png" Key="text_public_301.png"/>
+            <PlistImageFile Name="text_public_209.png" Key="text_public_209.png"/>
+            <PlistImageFile Name="text_public_210.png" Key="text_public_210.png"/>
+            <PlistImageFile Name="text_public_211.png" Key="text_public_211.png"/>
+            <PlistImageFile Name="text_public_212.png" Key="text_public_212.png"/>
+            <PlistImageFile Name="text_public_303.png" Key="text_public_303.png"/>
+            <PlistImageFile Name="text_public_304.png" Key="text_public_304.png"/>
+            <PlistImageFile Name="text_public_305.png" Key="text_public_305.png"/>
+            <PlistImageFile Name="text_public_309.png" Key="text_public_309.png"/>
+          </PlistImageFolder>
+        </Folder>
+        <Folder Name="feedback">
+          <Image Name="sp_faq_title.png"/>
+          <Project Name="FaqLayer.csd" Type="Layer"/>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
+
