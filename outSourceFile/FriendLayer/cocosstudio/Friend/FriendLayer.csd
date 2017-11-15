@@ -1,491 +1,513 @@
 <GameFile>
-  <PropertyGroup Name="Friend@FriendLayer" Version="2.3.0.0" ID="8b326323-7c6e-48ee-96cd-6ee6c11e380b" Type="Layer"/>
+  <PropertyGroup Name="FriendLayer" Type="Layer" ID="8b326323-7c6e-48ee-96cd-6ee6c11e380b" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
+      <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Scene" ctype="GameLayerObjectData">
-        <Size X="1334" Y="750"/>
+        <Size X="1334.0000" Y="750.0000" />
         <Children>
-          <AbstractNodeData ctype="PanelObjectData" Name="FriendBg" Tag="131" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" ClipAble="False" ComboBoxIndex="0" BackColorAlpha="102" IsCustomSize="True">
-            <PreSize X="1" Y="1"/>
-            <Size X="1334" Y="750"/>
-            <AnchorPoint ScaleX="0" ScaleY="0"/>
-            <Position X="0" Y="0"/>
-            <Scale ScaleX="1" ScaleY="1"/>
-            <CColor R="255" G="255" B="255" A="255"/>
-            <SingleColor R="150" G="200" B="255" A="255"/>
-            <FirstColor R="150" G="200" B="255" A="255"/>
-            <EndColor R="255" G="255" B="255" A="255"/>
-            <ColorVector ScaleX="-4.371138828673793e-08" ScaleY="1"/>
+          <AbstractNodeData Name="FriendBg" Tag="131" IconVisible="True" TouchEnable="True" ClipAble="False" BackColorAlpha="102" ColorAngle="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IsCustomSize="True" ctype="PanelObjectData">
+            <Size X="1334.0000" Y="750.0000" />
             <Children>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="TitleBar" Tag="5" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="1" Y="0.136000007390976"/>
-                <Size X="1334" Y="102"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="667" Y="697.6799926757813"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="PlistSubImage" Path="sp_top_bg.png" Plist="public/public.plist"/>
+              <AbstractNodeData Name="TitleBar" Tag="5" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="1334.0000" Y="102.0000" />
                 <Children>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="TitleBarTitle" Tag="6" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.1386806666851044" Y="0.5098039507865906"/>
-                    <Size X="185" Y="52"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="666.3560180664063" Y="60.18600082397461"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/biaoti1.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="TitleBarTitle" Tag="6" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="185.0000" Y="52.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="666.3560" Y="60.1860" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.1387" Y="0.5098" />
+                    <FileData Type="Normal" Path="Friend/biaoti1.png" Plist="" />
                   </AbstractNodeData>
                 </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="667.0000" Y="697.6800" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="1.0000" Y="0.1360" />
+                <FileData Type="PlistSubImage" Path="sp_top_bg.png" Plist="public/public.plist" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ButtonObjectData" Name="BackBtn" Tag="4" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="46" Scale9Height="54" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                <PreSize X="0.05547226220369339" Y="0.09866666793823242"/>
-                <Size X="74" Y="74"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="71.65499877929688" Y="697.7210083007813"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <TextColor R="65" G="65" B="70" A="255"/>
-                <DisabledFileData Type="PlistSubImage" Path="btn_back_0.png" Plist="public/public.plist"/>
-                <NormalFileData Type="PlistSubImage" Path="btn_back_0.png" Plist="public/public.plist"/>
-                <Children/>
+              <AbstractNodeData Name="BackBtn" Tag="4" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="46" Scale9Height="54" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                <Size X="74.0000" Y="74.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="71.6550" Y="697.7210" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0555" Y="0.0987" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="PlistSubImage" Path="btn_back_0.png" Plist="public/public.plist" />
+                <NormalFileData Type="PlistSubImage" Path="btn_back_0.png" Plist="public/public.plist" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="ContentBg" Tag="7" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="0.9647676348686218" Y="0.8040000200271606"/>
-                <Size X="1287" Y="603"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="669.1500244140625" Y="319.1109924316406"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="PlistSubImage" Path="sp_public_frame_0.png" Plist="public/public.plist"/>
+              <AbstractNodeData Name="ContentBg" Tag="7" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="1287.0000" Y="603.0000" />
                 <Children>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="BtnListBg" Tag="8" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.1802641749382019" Y="0.5671641826629639"/>
-                    <Size X="232" Y="342"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="135.4199981689453" Y="404.1130065917969"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/dikuang4.png" Plist=""/>
+                  <AbstractNodeData Name="BtnListBg" Tag="8" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="232.0000" Y="342.0000" />
                     <Children>
-                      <AbstractNodeData ctype="ButtonObjectData" Name="BtnList" Tag="10" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="218" Scale9Height="74" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                        <PreSize X="1.068965554237366" Y="0.280701756477356"/>
-                        <Size X="248" Y="96"/>
-                        <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                        <Position X="129.1199951171875" Y="277.3399963378906"/>
-                        <Scale ScaleX="1" ScaleY="1"/>
-                        <CColor R="255" G="255" B="255" A="255"/>
-                        <OutlineColor R="0" G="63" B="198" A="255"/>
-                        <ShadowColor R="0" G="63" B="198" A="255"/>
-                        <GlowColor R="0" G="63" B="198" A="255"/>
-                        <TextColor R="65" G="65" B="70" A="255"/>
-                        <DisabledFileData Type="Normal" Path="Friend/anniu4.png" Plist=""/>
-                        <NormalFileData Type="Normal" Path="Friend/anniu3.png" Plist=""/>
-                        <Children/>
+                      <AbstractNodeData Name="BtnList" Tag="10" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="218" Scale9Height="74" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                        <Size X="248.0000" Y="96.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="129.1200" Y="277.3400" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition />
+                        <PreSize X="1.0690" Y="0.2807" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Normal" Path="Friend/anniu4.png" Plist="" />
+                        <NormalFileData Type="Normal" Path="Friend/anniu3.png" Plist="" />
+                        <OutlineColor A="255" R="0" G="63" B="198" />
+                        <ShadowColor A="255" R="0" G="63" B="198" />
+                        <GlowColor R="0" G="63" B="198" A="255" />
                       </AbstractNodeData>
-                      <AbstractNodeData ctype="ButtonObjectData" Name="BtnAddFriend" Tag="11" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="218" Scale9Height="74" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                        <PreSize X="1.068965554237366" Y="0.280701756477356"/>
-                        <Size X="248" Y="96"/>
-                        <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                        <Position X="129.3699951171875" Y="169.0099945068359"/>
-                        <Scale ScaleX="1" ScaleY="1"/>
-                        <CColor R="255" G="255" B="255" A="255"/>
-                        <OutlineColor R="0" G="63" B="198" A="255"/>
-                        <ShadowColor R="0" G="63" B="198" A="255"/>
-                        <GlowColor R="0" G="63" B="198" A="255"/>
-                        <TextColor R="65" G="65" B="70" A="255"/>
-                        <DisabledFileData Type="Normal" Path="Friend/anniu6.png" Plist=""/>
-                        <NormalFileData Type="Normal" Path="Friend/anniu5.png" Plist=""/>
-                        <Children/>
+                      <AbstractNodeData Name="BtnAddFriend" Tag="11" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="218" Scale9Height="74" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                        <Size X="248.0000" Y="96.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="129.3700" Y="169.0100" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition />
+                        <PreSize X="1.0690" Y="0.2807" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Normal" Path="Friend/anniu6.png" Plist="" />
+                        <NormalFileData Type="Normal" Path="Friend/anniu5.png" Plist="" />
+                        <OutlineColor A="255" R="0" G="63" B="198" />
+                        <ShadowColor A="255" R="0" G="63" B="198" />
+                        <GlowColor R="0" G="63" B="198" A="255" />
                       </AbstractNodeData>
-                      <AbstractNodeData ctype="ButtonObjectData" Name="BtnMsgNotice" Tag="12" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="218" Scale9Height="74" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                        <PreSize X="1.068965554237366" Y="0.280701756477356"/>
-                        <Size X="248" Y="96"/>
-                        <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                        <Position X="128.9299926757813" Y="61.52999877929688"/>
-                        <Scale ScaleX="1" ScaleY="1"/>
-                        <CColor R="255" G="255" B="255" A="255"/>
-                        <OutlineColor R="0" G="63" B="198" A="255"/>
-                        <ShadowColor R="0" G="63" B="198" A="255"/>
-                        <GlowColor R="0" G="63" B="198" A="255"/>
-                        <TextColor R="65" G="65" B="70" A="255"/>
-                        <DisabledFileData Type="Normal" Path="Friend/anniu8.png" Plist=""/>
-                        <NormalFileData Type="Normal" Path="Friend/anniu7.png" Plist=""/>
-                        <Children/>
+                      <AbstractNodeData Name="BtnMsgNotice" Tag="12" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="218" Scale9Height="74" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                        <Size X="248.0000" Y="96.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="128.9300" Y="61.5300" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition />
+                        <PreSize X="1.0690" Y="0.2807" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Normal" Path="Friend/anniu8.png" Plist="" />
+                        <NormalFileData Type="Normal" Path="Friend/anniu7.png" Plist="" />
+                        <OutlineColor A="255" R="0" G="63" B="198" />
+                        <ShadowColor A="255" R="0" G="63" B="198" />
+                        <GlowColor R="0" G="63" B="198" A="255" />
                       </AbstractNodeData>
                     </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="135.4200" Y="404.1130" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.1803" Y="0.5672" />
+                    <FileData Type="Normal" Path="Friend/dikuang4.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="UserListBg" Tag="9" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.7770007848739624" Y="0.9203979969024658"/>
-                    <Size X="1000" Y="555"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="770.177001953125" Y="297.7659912109375"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="PlistSubImage" Path="sp_public_frame_1.png" Plist="public/public.plist"/>
-                    <Children/>
+                  <AbstractNodeData Name="UserListBg" Tag="9" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="1000.0000" Y="555.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="770.1770" Y="297.7660" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.7770" Y="0.9204" />
+                    <FileData Type="PlistSubImage" Path="sp_public_frame_1.png" Plist="public/public.plist" />
                   </AbstractNodeData>
                 </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="669.1500" Y="319.1110" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.9648" Y="0.8040" />
+                <FileData Type="PlistSubImage" Path="sp_public_frame_0.png" Plist="public/public.plist" />
               </AbstractNodeData>
             </Children>
+            <AnchorPoint />
+            <Position />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="1.0000" Y="1.0000" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleX="0.0000" ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData ctype="PanelObjectData" Name="FriendAddLayer" Tag="44" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" ClipAble="False" ComboBoxIndex="0" BackColorAlpha="102" IsCustomSize="True">
-            <PreSize X="0.7211394309997559" Y="0.690666675567627"/>
-            <Size X="962" Y="518"/>
-            <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-            <Position X="797" Y="315"/>
-            <Scale ScaleX="1" ScaleY="1"/>
-            <CColor R="255" G="255" B="255" A="255"/>
-            <SingleColor R="150" G="200" B="255" A="255"/>
-            <FirstColor R="150" G="200" B="255" A="255"/>
-            <EndColor R="255" G="255" B="255" A="255"/>
-            <ColorVector ScaleX="-4.371138828673793e-08" ScaleY="1"/>
-            <FileData Type="PlistSubImage" Path="sp_public_frame_1.png" Plist=""/>
+          <AbstractNodeData Name="FriendAddLayer" Tag="44" IconVisible="True" ClipAble="False" BackColorAlpha="102" ColorAngle="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IsCustomSize="True" ctype="PanelObjectData">
+            <Size X="962.0000" Y="518.0000" />
             <Children>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="InputTextBg" Tag="18" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="0.6455301642417908" Y="0.1235521212220192"/>
-                <Size X="621" Y="64"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="316.7980041503906" Y="475"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="Normal" Path="Friend/dikuang20.png" Plist=""/>
-                <Children/>
+              <AbstractNodeData Name="InputTextBg" Tag="18" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="621.0000" Y="64.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="316.7980" Y="475.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.6455" Y="0.1236" />
+                <FileData Type="Normal" Path="Friend/dikuang20.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ButtonObjectData" Name="BtnSearch" Tag="19" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="160" Scale9Height="42" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                <PreSize X="0.1975051909685135" Y="0.1235521212220192"/>
-                <Size X="190" Y="64"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="837.125" Y="473"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <TextColor R="65" G="65" B="70" A="255"/>
-                <DisabledFileData Type="Normal" Path="Default/Button_Disable.png" Plist=""/>
-                <NormalFileData Type="Normal" Path="Friend/anniu16.png" Plist=""/>
-                <Children/>
+              <AbstractNodeData Name="BtnSearch" Tag="19" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="160" Scale9Height="42" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                <Size X="190.0000" Y="64.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="837.1250" Y="473.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.1975" Y="0.1236" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="Default/Button_Disable.png" Plist="" />
+                <NormalFileData Type="Normal" Path="Friend/anniu16.png" Plist="" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ButtonObjectData" Name="BtnNearBy" Tag="21" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                <PreSize X="0.2068607062101364" Y="0.2857142984867096"/>
-                <Size X="199" Y="148"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="192.3999938964844" Y="100"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <TextColor R="65" G="65" B="70" A="255"/>
-                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist=""/>
+              <AbstractNodeData Name="BtnNearBy" Tag="21" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                <Size X="199.0000" Y="148.0000" />
                 <Children>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_13" Tag="25" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.3467336595058441" Y="0.5405405163764954"/>
-                    <Size X="69" Y="80"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="40" Y="66"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/tutiao4.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_13" Tag="25" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="69.0000" Y="80.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="40.0000" Y="66.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.3467" Y="0.5405" />
+                    <FileData Type="Normal" Path="Friend/tutiao4.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_14" Tag="26" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.4070351719856262" Y="0.364864856004715"/>
-                    <Size X="81" Y="54"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="119" Y="67"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/biaoti7.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_14" Tag="26" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="81.0000" Y="54.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="119.0000" Y="67.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.4070" Y="0.3649" />
+                    <FileData Type="Normal" Path="Friend/biaoti7.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_15" Tag="27" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.09045226126909256" Y="0.1554054021835327"/>
-                    <Size X="18" Y="23"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="169" Y="120"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_15" Tag="27" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="18.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="169.0000" Y="120.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.0905" Y="0.1554" />
+                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist="" />
                   </AbstractNodeData>
                 </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="192.4000" Y="100.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.2069" Y="0.2857" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist="" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ButtonObjectData" Name="BtnTelList" Tag="28" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                <PreSize X="0.2068607062101364" Y="0.2857142984867096"/>
-                <Size X="199" Y="148"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="481" Y="100"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <TextColor R="65" G="65" B="70" A="255"/>
-                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist=""/>
+              <AbstractNodeData Name="BtnTelList" Tag="28" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                <Size X="199.0000" Y="148.0000" />
                 <Children>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_13" Tag="29" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.3467336595058441" Y="0.5472972989082336"/>
-                    <Size X="69" Y="81"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="40" Y="66"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/tutiao5.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_13" Tag="29" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="69.0000" Y="81.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="40.0000" Y="66.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.3467" Y="0.5473" />
+                    <FileData Type="Normal" Path="Friend/tutiao5.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_14" Tag="30" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.402010053396225" Y="0.364864856004715"/>
-                    <Size X="80" Y="54"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="119" Y="67"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/biaoti8.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_14" Tag="30" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="80.0000" Y="54.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="119.0000" Y="67.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.4020" Y="0.3649" />
+                    <FileData Type="Normal" Path="Friend/biaoti8.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_15" Tag="31" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.09045226126909256" Y="0.1554054021835327"/>
-                    <Size X="18" Y="23"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="169" Y="120"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_15" Tag="31" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="18.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="169.0000" Y="120.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.0905" Y="0.1554" />
+                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist="" />
                   </AbstractNodeData>
                 </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="481.0000" Y="100.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.2069" Y="0.2857" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist="" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ButtonObjectData" Name="BtnWechat" Tag="32" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                <PreSize X="0.2068607062101364" Y="0.2857142984867096"/>
-                <Size X="199" Y="148"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="769.5999755859375" Y="100"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <TextColor R="65" G="65" B="70" A="255"/>
-                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist=""/>
+              <AbstractNodeData Name="BtnWechat" Tag="32" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                <Size X="199.0000" Y="148.0000" />
                 <Children>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_13" Tag="33" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.3819095492362976" Y="0.5472972989082336"/>
-                    <Size X="76" Y="81"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="40" Y="66"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/tutiao6.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_13" Tag="33" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="76.0000" Y="81.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="40.0000" Y="66.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.3819" Y="0.5473" />
+                    <FileData Type="Normal" Path="Friend/tutiao6.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_14" Tag="34" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.402010053396225" Y="0.364864856004715"/>
-                    <Size X="80" Y="54"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="119" Y="67"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/biaoti9.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_14" Tag="34" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="80.0000" Y="54.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="119.0000" Y="67.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.4020" Y="0.3649" />
+                    <FileData Type="Normal" Path="Friend/biaoti9.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_15" Tag="35" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.09045226126909256" Y="0.1554054021835327"/>
-                    <Size X="18" Y="23"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="169" Y="120"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist=""/>
-                    <Children/>
+                  <AbstractNodeData Name="Image_15" Tag="35" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="18.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="169.0000" Y="120.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.0905" Y="0.1554" />
+                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist="" />
                   </AbstractNodeData>
                 </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="769.6000" Y="100.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.2069" Y="0.2857" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist="" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ButtonObjectData" Name="BtnQQ" Tag="36" VisibleForFrame="False" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                <PreSize X="0.2068607062101364" Y="0.2857142984867096"/>
-                <Size X="199" Y="148"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="823.177978515625" Y="104.2990036010742"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <TextColor R="65" G="65" B="70" A="255"/>
-                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist=""/>
+              <AbstractNodeData Name="BtnQQ" VisibleForFrame="False" Tag="36" IconVisible="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="126" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                <Size X="199.0000" Y="148.0000" />
                 <Children>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_13" Tag="37" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.3467336595058441" Y="0.5405405163764954"/>
-                    <Size X="69" Y="80"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="40" Y="66"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/tutiao7.png" Plist=""/>
+                  <AbstractNodeData Name="Image_13" Tag="37" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="69.0000" Y="80.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="40.0000" Y="66.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.3467" Y="0.5405" />
+                    <FileData Type="Normal" Path="Friend/tutiao7.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_14" Tag="38" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.402010053396225" Y="0.3581081032752991"/>
-                    <Size X="80" Y="53"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="119" Y="67"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/biaoti10.png" Plist=""/>
+                  <AbstractNodeData Name="Image_14" Tag="38" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="80.0000" Y="53.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="119.0000" Y="67.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.4020" Y="0.3581" />
+                    <FileData Type="Normal" Path="Friend/biaoti10.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="ImageViewObjectData" Name="Image_15" Tag="39" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                    <PreSize X="0.09045226126909256" Y="0.1554054021835327"/>
-                    <Size X="18" Y="23"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="169" Y="120"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist=""/>
+                  <AbstractNodeData Name="Image_15" Tag="39" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                    <Size X="18.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="169.0000" Y="120.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.0905" Y="0.1554" />
+                    <FileData Type="Normal" Path="Friend/anniu18.png" Plist="" />
                   </AbstractNodeData>
                 </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="823.1780" Y="104.2990" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.2069" Y="0.2857" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <NormalFileData Type="Normal" Path="Friend/dikuang22.png" Plist="" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ListViewObjectData" Name="ListUserSearch" Tag="34" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" ClipAble="True" ComboBoxIndex="0" BackColorAlpha="0" IsCustomSize="True" DirectionType="Vertical" IsScrollBarEnabled="True" IsBounceEnabled="False" ItemMargin="0">
-                <PreSize X="0.9896777868270874" Y="0.3861003816127777"/>
-                <Size X="952.0700073242188" Y="200"/>
-                <AnchorPoint ScaleX="0" ScaleY="0"/>
-                <Position X="3.809999942779541" Y="230.1020050048828"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <SingleColor R="150" G="150" B="255" A="255"/>
-                <FirstColor R="150" G="150" B="255" A="255"/>
-                <EndColor R="255" G="255" B="255" A="255"/>
-                <ColorVector ScaleX="-4.371138828673793e-08" ScaleY="1"/>
-                <Children/>
+              <AbstractNodeData Name="ListUserSearch" Tag="34" IconVisible="True" TouchEnable="True" ClipAble="True" BackColorAlpha="0" ColorAngle="0.0000" ScrollDirectionType="0" DirectionType="Vertical" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IsCustomSize="True" IsScrollBarEnabled="True" ctype="ListViewObjectData">
+                <Size X="952.0700" Y="200.0000" />
+                <AnchorPoint />
+                <Position X="3.8100" Y="230.1020" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.9897" Y="0.3861" />
+                <SingleColor A="255" R="150" G="150" B="255" />
+                <FirstColor A="255" R="150" G="150" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleX="0.0000" ScaleY="1.0000" />
               </AbstractNodeData>
             </Children>
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="797.0000" Y="315.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.7211" Y="0.6907" />
+            <FileData Type="PlistSubImage" Path="sp_public_frame_1.png" Plist="" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleX="0.0000" ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData ctype="ImageViewObjectData" Name="FriendChatLayer" Tag="36" VisibleForFrame="False" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-            <PreSize X="0.9647676348686218" Y="0.8040000200271606"/>
-            <Size X="1287" Y="603"/>
-            <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-            <Position X="670.9910278320313" Y="323.1400146484375"/>
-            <Scale ScaleX="1" ScaleY="1"/>
-            <CColor R="255" G="255" B="255" A="255"/>
-            <FileData Type="PlistSubImage" Path="sp_public_frame_0.png" Plist="public/public.plist"/>
+          <AbstractNodeData Name="FriendChatLayer" VisibleForFrame="False" Tag="36" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+            <Size X="1287.0000" Y="603.0000" />
             <Children>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="Image_4" Tag="38" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="0.9619269371032715" Y="0.9170812368392944"/>
-                <Size X="1238" Y="553"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="644.3779907226563" Y="298.4309997558594"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="Normal" Path="Friend/dikuang8.png" Plist=""/>
+              <AbstractNodeData Name="Image_4" Tag="38" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="1238.0000" Y="553.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="644.3780" Y="298.4310" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.9619" Y="0.9171" />
+                <FileData Type="Normal" Path="Friend/dikuang8.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="Image_1" Tag="43" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="0.693084716796875" Y="0.6898838877677917"/>
-                <Size X="892" Y="416"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="807.3049926757813" Y="307.1000061035156"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="Normal" Path="Friend/dikuang14.png" Plist=""/>
+              <AbstractNodeData Name="Image_1" Tag="43" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="892.0000" Y="416.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="807.3050" Y="307.1000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.6931" Y="0.6899" />
+                <FileData Type="Normal" Path="Friend/dikuang14.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="Image_3" Tag="37" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="0.2540792524814606" Y="0.09121061116456985"/>
-                <Size X="327" Y="55"/>
-                <AnchorPoint ScaleX="0.5220000147819519" ScaleY="0.5249999761581421"/>
-                <Position X="202.0200042724609" Y="540.8699951171875"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="Normal" Path="Friend/dikuang9.png" Plist=""/>
+              <AbstractNodeData Name="Image_3" Tag="37" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="327.0000" Y="55.0000" />
+                <AnchorPoint ScaleX="0.5220" ScaleY="0.5250" />
+                <Position X="202.0200" Y="540.8700" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.2541" Y="0.0912" />
+                <FileData Type="Normal" Path="Friend/dikuang9.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="Image_5" Tag="39" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="0.6946386694908142" Y="0.09121061116456985"/>
-                <Size X="894" Y="55"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="807.2999877929688" Y="539.22998046875"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="Normal" Path="Friend/dikuang12.png" Plist=""/>
+              <AbstractNodeData Name="Image_5" Tag="39" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="894.0000" Y="55.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="807.3000" Y="539.2300" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.6946" Y="0.0912" />
+                <FileData Type="Normal" Path="Friend/dikuang12.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="LabNick" Tag="44" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" FontName="" FontSize="30" IsCustomSize="True" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0.6177195310592651" Y="0.08689884096384048"/>
-                <Size X="795.0050048828125" Y="52.40000152587891"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="811.906005859375" Y="540.5999755859375"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="255" B="255" A="255"/>
+              <AbstractNodeData Name="LabNick" Tag="44" IconVisible="True" IsCustomSize="True" FontSize="30" LabelText="" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="795.0050" Y="52.4000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="811.9060" Y="540.6000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.6177" Y="0.0869" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ImageViewObjectData" Name="SendMsgBg" Tag="40" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False">
-                <PreSize X="0.693084716796875" Y="0.1243781074881554"/>
-                <Size X="892" Y="75"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="807.2999877929688" Y="62.9739990234375"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="Normal" Path="Friend/dikuang13.png" Plist=""/>
+              <AbstractNodeData Name="SendMsgBg" Tag="40" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
+                <Size X="892.0000" Y="75.0000" />
                 <Children>
-                  <AbstractNodeData ctype="ButtonObjectData" Name="BtnSend" Tag="41" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="123" Scale9Height="31" LeftEage="15" TopEage="11" RightEage="15" BottomEage="11">
-                    <PreSize X="0.1715246587991714" Y="0.7066666483879089"/>
-                    <Size X="153" Y="53"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="805.948974609375" Y="38.01699829101563"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <CColor R="255" G="255" B="255" A="255"/>
-                    <OutlineColor R="0" G="63" B="198" A="255"/>
-                    <ShadowColor R="0" G="63" B="198" A="255"/>
-                    <GlowColor R="0" G="63" B="198" A="255"/>
-                    <TextColor R="65" G="65" B="70" A="255"/>
-                    <NormalFileData Type="Normal" Path="Friend/anniu12.png" Plist=""/>
+                  <AbstractNodeData Name="BtnSend" Tag="41" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="123" Scale9Height="31" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                    <Size X="153.0000" Y="53.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="805.9490" Y="38.0170" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition />
+                    <PreSize X="0.1715" Y="0.7067" />
+                    <TextColor A="255" R="65" G="65" B="70" />
+                    <NormalFileData Type="Normal" Path="Friend/anniu12.png" Plist="" />
+                    <OutlineColor A="255" R="0" G="63" B="198" />
+                    <ShadowColor A="255" R="0" G="63" B="198" />
+                    <GlowColor R="0" G="63" B="198" A="255" />
                   </AbstractNodeData>
-                  <AbstractNodeData ctype="TextObjectData" Name="LabInput" Tag="42" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="请输入要发送的消息文字" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" FontName="" FontSize="32" IsCustomSize="True" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                    <PreSize X="0.7903138995170593" Y="0.7894666790962219"/>
-                    <Size X="704.9600219726563" Y="59.20999908447266"/>
-                    <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                    <Position X="362.3200073242188" Y="36.31000137329102"/>
-                    <Scale ScaleX="1" ScaleY="1"/>
-                    <OutlineColor R="0" G="63" B="198" A="255"/>
-                    <ShadowColor R="0" G="63" B="198" A="255"/>
-                    <GlowColor R="0" G="63" B="198" A="255"/>
-                    <CColor R="195" G="199" B="239" A="255"/>
+                  <AbstractNodeData Name="LabInput" Tag="42" IconVisible="True" IsCustomSize="True" FontSize="32" LabelText="请输入要发送的消息文字" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                    <Size X="704.9600" Y="59.2100" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="362.3200" Y="36.3100" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="195" G="199" B="239" />
+                    <PrePosition />
+                    <PreSize X="0.7903" Y="0.7895" />
+                    <OutlineColor A="255" R="0" G="63" B="198" />
+                    <ShadowColor A="255" R="0" G="63" B="198" />
+                    <GlowColor R="0" G="63" B="198" A="255" />
                   </AbstractNodeData>
                 </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="807.3000" Y="62.9740" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.6931" Y="0.1244" />
+                <FileData Type="Normal" Path="Friend/dikuang13.png" Plist="" />
               </AbstractNodeData>
             </Children>
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="670.9910" Y="323.1400" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.9648" Y="0.8040" />
+            <FileData Type="PlistSubImage" Path="sp_public_frame_0.png" Plist="public/public.plist" />
           </AbstractNodeData>
-          <AbstractNodeData ctype="PanelObjectData" Name="FriendNotifyLayer" Tag="45" VisibleForFrame="False" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" ClipAble="False" ComboBoxIndex="0" BackColorAlpha="102" IsCustomSize="True">
-            <PreSize X="0.7211394309997559" Y="0.690666675567627"/>
-            <Size X="962" Y="518"/>
-            <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-            <Position X="797" Y="315"/>
-            <Scale ScaleX="1" ScaleY="1"/>
-            <CColor R="255" G="255" B="255" A="255"/>
-            <SingleColor R="150" G="200" B="255" A="255"/>
-            <FirstColor R="150" G="200" B="255" A="255"/>
-            <EndColor R="255" G="255" B="255" A="255"/>
-            <ColorVector ScaleX="-4.371138828673793e-08" ScaleY="1"/>
-            <FileData Type="PlistSubImage" Path="sp_public_frame_1.png" Plist=""/>
+          <AbstractNodeData Name="FriendNotifyLayer" VisibleForFrame="False" Tag="45" IconVisible="True" ClipAble="False" BackColorAlpha="102" ColorAngle="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IsCustomSize="True" ctype="PanelObjectData">
+            <Size X="962.0000" Y="518.0000" />
             <Children>
-              <AbstractNodeData ctype="ListViewObjectData" Name="NotifyList" Tag="50" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" ClipAble="True" ComboBoxIndex="1" BackColorAlpha="0" IsCustomSize="True" DirectionType="Vertical" IsScrollBarEnabled="True" IsBounceEnabled="True" ItemMargin="10">
-                <PreSize X="1" Y="1"/>
-                <Size X="962" Y="518"/>
-                <AnchorPoint ScaleX="0" ScaleY="0"/>
-                <Position X="0" Y="0"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <SingleColor R="150" G="150" B="255" A="255"/>
-                <FirstColor R="150" G="150" B="255" A="255"/>
-                <EndColor R="255" G="255" B="255" A="255"/>
-                <ColorVector ScaleX="-4.371138828673793e-08" ScaleY="1"/>
+              <AbstractNodeData Name="NotifyList" Tag="50" IconVisible="True" TouchEnable="True" ClipAble="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="0.0000" IsBounceEnabled="True" ScrollDirectionType="0" ItemMargin="10" DirectionType="Vertical" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IsCustomSize="True" IsScrollBarEnabled="True" ctype="ListViewObjectData">
+                <Size X="962.0000" Y="518.0000" />
+                <AnchorPoint />
+                <Position />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="1.0000" Y="1.0000" />
+                <SingleColor A="255" R="150" G="150" B="255" />
+                <FirstColor A="255" R="150" G="150" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleX="0.0000" ScaleY="1.0000" />
               </AbstractNodeData>
             </Children>
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="797.0000" Y="315.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.7211" Y="0.6907" />
+            <FileData Type="PlistSubImage" Path="sp_public_frame_1.png" Plist="" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleX="0.0000" ScaleY="1.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
-      <Animation Duration="0" Speed="1"/>
     </Content>
   </Content>
 </GameFile>
-

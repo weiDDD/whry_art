@@ -48,7 +48,7 @@
                 <OutlineColor A="255" R="0" G="63" B="198" />
                 <ShadowColor A="255" R="0" G="63" B="198" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_return" Tag="59" IconVisible="False" LeftMargin="24.2049" RightMargin="1268.7950" TopMargin="21.2579" BottomMargin="21.7421" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="11" Scale9Height="19" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btn_return" Tag="59" IconVisible="False" LeftMargin="24.2049" RightMargin="1268.7952" TopMargin="21.2579" BottomMargin="21.7421" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="11" Scale9Height="19" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" ctype="ButtonObjectData">
                 <Size X="41.0000" Y="41.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="44.7049" Y="42.2421" />
@@ -397,6 +397,20 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
+              <AbstractNodeData Name="activityBtn" ActionTag="1700035632" Tag="44" IconVisible="False" LeftMargin="820.7522" RightMargin="304.2478" TopMargin="3.1121" BottomMargin="-77.1121" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="179" Scale9Height="136" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="209.0000" Y="158.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="925.2522" Y="1.8879" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.6936" Y="0.0225" />
+                <PreSize X="0.1567" Y="1.8810" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="plaza/img7.png" Plist="" />
+                <NormalFileData Type="Normal" Path="plaza/img7.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
             <Position X="666.9990" Y="751.0007" />
@@ -546,20 +560,6 @@
             <PreSize X="0.3568" Y="0.0467" />
             <FileData Type="Normal" Path="plaza/img9.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="activityBtn" ActionTag="1700035632" Tag="44" IconVisible="False" LeftMargin="816.6765" RightMargin="308.3235" TopMargin="14.0046" BottomMargin="577.9954" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="179" Scale9Height="136" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="209.0000" Y="158.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="921.1765" Y="656.9954" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6905" Y="0.8760" />
-            <PreSize X="0.1567" Y="0.2107" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Normal" Path="plaza/img7.png" Plist="" />
-            <NormalFileData Type="Normal" Path="plaza/img7.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
           <AbstractNodeData Name="leftScrollBtn" ActionTag="-1026335565" Tag="46" IconVisible="False" LeftMargin="49.2893" RightMargin="1218.7107" TopMargin="363.5661" BottomMargin="348.4339" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="36" Scale9Height="16" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="66.0000" Y="38.0000" />

@@ -1,33 +1,32 @@
 <Solution>
-  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <PropertyGroup Name="test" Version="3.10.0.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Folder Name="Checkin">
-          <Image Name="frame_vip_0.png"/>
-          <Image Name="bt_vip_confirm_0.png"/>
-          <Project Name="MemberGiftLayer.csd" Type="Layer"/>
-        </Folder>
         <Folder Name="Bank">
-          <Image Name="sp_bank_cerbg.png"/>
-          <Image Name="sp_bank_certitle.png"/>
-          <Image Name="sp_banksendnick.png"/>
-          <Image Name="sp_banksenduid.png"/>
-          <Image Name="sp_bank_sendtip.png"/>
-          <Image Name="sp_bankrecnick.png"/>
-          <Image Name="sp_bankrecid.png"/>
-          <Image Name="sp_banksendcount.png"/>
-          <Image Name="atlas_bank_num.png"/>
-          <Image Name="sp_bankcapital.png"/>
-          <Image Name="sp_banksend_date.png"/>
-          <Image Name="sp_bankcerno.png"/>
-          <Image Name="sp_bank_sendres.png"/>
-          <Image Name="btn_bankshare_0.png"/>
-          <Image Name="btn_banksavepic_0.png"/>
-          <Project Name="BankCerLayer.csd" Type="Layer"/>
+          <Image Name="atlas_bank_num.png" />
+          <Project Name="BankCerLayer.csd" Type="Layer" />
+          <Image Name="btn_banksavepic_0.png" />
+          <Image Name="btn_bankshare_0.png" />
+          <Image Name="sp_bank_cerbg.png" />
+          <Image Name="sp_bank_certitle.png" />
+          <Image Name="sp_bank_sendres.png" />
+          <Image Name="sp_bank_sendtip.png" />
+          <Image Name="sp_bankcapital.png" />
+          <Image Name="sp_bankcerno.png" />
+          <Image Name="sp_bankrecid.png" />
+          <Image Name="sp_bankrecnick.png" />
+          <Image Name="sp_banksend_date.png" />
+          <Image Name="sp_banksendcount.png" />
+          <Image Name="sp_banksendnick.png" />
+          <Image Name="sp_banksenduid.png" />
+        </Folder>
+        <Folder Name="Checkin">
+          <Image Name="bt_vip_confirm_0.png" />
+          <Image Name="frame_vip_0.png" />
+          <Project Name="MemberGiftLayer.csd" Type="Layer" />
         </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>
 </Solution>
-

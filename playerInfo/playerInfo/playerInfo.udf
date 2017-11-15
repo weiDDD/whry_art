@@ -1,13 +1,5 @@
 <UserData Version="3.10.0.0">
   <Properties>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="MainScene.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="MainScene.csd" />
-      </Value>
-    </Item>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
@@ -22,15 +14,23 @@
         <LuaEncryptSign Value="" />
         <Android_PackageName Value="org.cocos.playerInfo" />
         <AndroidkeyStore Value="" />
-        <AndroidVersion Value="android-15" />
+        <AndroidVersion Value="android-19" />
         <iOS_Target Value="playerInfo-mobile" />
         <iOS_BundleID Value="" />
         <Platform Value="None" />
         <RunPlatform Value="None" />
         <FrameworkVersion Value="cocos2d-x-3.10" />
         <IsDebugKeystore Value="True" />
+        <KeystorePassword Value="" />
+        <KeystoreAliasName Value="" />
+        <KeystoreAliasPassword Value="" />
         <EnableSourceMap Value="False" />
         <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <ActiveDocument />
       </Value>
     </Item>
   </Properties>

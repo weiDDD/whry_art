@@ -1,0 +1,20 @@
+<UserData Version="3.10.0.0">
+  <Properties>
+    <Item Key="CocosRecentOperation">
+      <Value ctype="CocosRecentOperation">
+        <LastPublishType Value="Resource" />
+        <IsLastPublish Value="True" />
+        <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="Bank/BankCerLayer.csd" />
+          <FilePathData Path="Checkin/MemberGiftLayer.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="Bank/BankCerLayer.csd" />
+      </Value>
+    </Item>
+  </Properties>
+</UserData>
