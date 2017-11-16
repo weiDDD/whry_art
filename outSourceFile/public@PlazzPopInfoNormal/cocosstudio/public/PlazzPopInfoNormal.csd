@@ -1,172 +1,173 @@
 <GameFile>
-  <PropertyGroup Name="public@PlazzPopInfoNormal" Version="2.3.0.0" ID="8211c103-67ce-4da4-a172-8fbe632e985a" Type="Layer"/>
+  <PropertyGroup Name="PlazzPopInfoNormal" Type="Layer" ID="8211c103-67ce-4da4-a172-8fbe632e985a" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
+      <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Layer" ctype="GameLayerObjectData">
-        <Size X="1334" Y="750"/>
+        <Size X="1334.0000" Y="750.0000" />
         <Children>
-          <AbstractNodeData ctype="PanelObjectData" Name="Panel_1" Tag="193" VisibleForFrame="False" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" ClipAble="False" ComboBoxIndex="1" BackColorAlpha="102" IsCustomSize="True">
-            <PreSize X="1" Y="1"/>
-            <Size X="1334" Y="750"/>
-            <AnchorPoint ScaleX="0" ScaleY="0"/>
-            <Position X="0.9409999847412109" Y="-1.782999992370605"/>
-            <Scale ScaleX="1" ScaleY="1"/>
-            <CColor R="255" G="255" B="255" A="255"/>
-            <SingleColor R="26" G="26" B="26" A="255"/>
-            <FirstColor R="150" G="200" B="255" A="255"/>
-            <EndColor R="255" G="255" B="255" A="255"/>
-            <ColorVector ScaleX="-4.371138828673793e-08" ScaleY="1"/>
+          <AbstractNodeData Name="Panel_1" VisibleForFrame="False" Tag="193" IconVisible="True" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IsCustomSize="True" ctype="PanelObjectData">
+            <Size X="1334.0000" Y="750.0000" />
+            <AnchorPoint />
+            <Position X="0.9410" Y="-1.7830" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="1.0000" Y="1.0000" />
+            <SingleColor A="255" R="26" G="26" B="26" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleX="0.0000" ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData ctype="SpriteObjectData" Name="bg_kuang" Tag="194" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IntelliShadingEnabled="False">
-            <PreSize X="0" Y="0"/>
-            <Size X="537" Y="447"/>
-            <AnchorPoint ScaleX="0" ScaleY="0"/>
-            <Position X="397" Y="152"/>
-            <Scale ScaleX="1" ScaleY="1"/>
-            <CColor R="255" G="255" B="255" A="255"/>
-            <FileData Type="PlistSubImage" Path="bg_kuang_plazz_normal.png" Plist="public/public.plist"/>
-            <BlendFunc Src="770" Dst="771"/>
+          <AbstractNodeData Name="bg_kuang" Tag="194" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" IntelliShadingEnabled="False" ctype="SpriteObjectData">
+            <Size X="537.0000" Y="447.0000" />
             <Children>
-              <AbstractNodeData ctype="SpriteObjectData" Name="head_bg" Tag="228" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" IntelliShadingEnabled="False">
-                <PreSize X="0" Y="0"/>
-                <Size X="261" Y="189"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="128" Y="329"/>
-                <Scale ScaleX="0.8500000238418579" ScaleY="0.8500000238418579"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <FileData Type="PlistSubImage" Path="sp_frame_0_0.png" Plist="public/im_head_frame.plist"/>
-                <BlendFunc Src="770" Dst="771"/>
-                <Children/>
+              <AbstractNodeData Name="head_bg" Tag="228" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" IntelliShadingEnabled="False" ctype="SpriteObjectData">
+                <Size X="261.0000" Y="189.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="128.0000" Y="329.0000" />
+                <Scale ScaleX="0.8500" ScaleY="0.8500" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="PlistSubImage" Path="sp_frame_0_0.png" Plist="public/im_head_frame.plist" />
+                <BlendFunc Src="770" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="sign_text" Tag="31" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="220" AreaHeight="60" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="16" IsCustomSize="True" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0.4096834361553192" Y="0.1342281848192215"/>
-                <Size X="220" Y="60"/>
-                <AnchorPoint ScaleX="0" ScaleY="1"/>
-                <Position X="225.7140045166016" Y="338.7319946289063"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="sign_text" Tag="31" IconVisible="True" IsCustomSize="True" FontSize="16" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="220" AreaHeight="60" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="220.0000" Y="60.0000" />
+                <AnchorPoint ScaleY="1.0000" />
+                <Position X="225.7140" Y="338.7320" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.4097" Y="0.1342" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="vip_text" Tag="28" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="110" AreaHeight="20" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="True" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0.2048417180776596" Y="0.04474272951483727"/>
-                <Size X="110" Y="20"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="368" Y="209"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="255" B="0" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="vip_text" Tag="28" IconVisible="True" IsCustomSize="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="110" AreaHeight="20" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="110.0000" Y="20.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="368.0000" Y="209.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="0" />
+                <PrePosition />
+                <PreSize X="0.2048" Y="0.0447" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="nick_text" Tag="145" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="110" AreaHeight="20" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="True" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0.2048417180776596" Y="0.04474272951483727"/>
-                <Size X="110" Y="20"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="134" Y="206"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="nick_text" Tag="145" IconVisible="True" IsCustomSize="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="110" AreaHeight="20" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="110.0000" Y="20.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="134.0000" Y="206.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.2048" Y="0.0447" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="id_text" Tag="234" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="False" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0" Y="0"/>
-                <Size X="0" Y="0"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="132" Y="176"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="232" B="170" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="id_text" Tag="234" IconVisible="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="132.0000" Y="176.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="232" B="170" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="ingot_text" Tag="30" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="False" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0" Y="0"/>
-                <Size X="0" Y="0"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="132" Y="146"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="232" B="170" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="ingot_text" Tag="30" IconVisible="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="132.0000" Y="146.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="232" B="170" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="score_text" Tag="235" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="False" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0" Y="0"/>
-                <Size X="0" Y="0"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="368" Y="176"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="255" B="0" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="score_text" Tag="235" IconVisible="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="368.0000" Y="176.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="0" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="bean_text" Tag="236" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="False" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0" Y="0"/>
-                <Size X="0" Y="0"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="368" Y="146"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="255" B="0" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="bean_text" Tag="236" IconVisible="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="368.0000" Y="146.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="0" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="ButtonObjectData" Name="addfriend_btn" Tag="160" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="True" DisplayState="True" ButtonText="" FontSize="14" FontName="" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" OutlineSize="0" ShadowOffsetX="0" ShadowOffsetY="0" ShadowBlurRadius="0" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" Scale9Enable="True" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="367" Scale9Height="64" LeftEage="10" TopEage="10" RightEage="10" BottomEage="10">
-                <PreSize X="0.716946005821228" Y="0.1834451854228973"/>
-                <Size X="385" Y="82"/>
-                <AnchorPoint ScaleX="0.5" ScaleY="0.5"/>
-                <Position X="273.5480041503906" Y="69.84200286865234"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <CColor R="255" G="255" B="255" A="255"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <TextColor R="65" G="65" B="70" A="255"/>
-                <DisabledFileData Type="PlistSubImage" Path="bt_addfriend_plazz.png" Plist="public/public.plist"/>
-                <NormalFileData Type="PlistSubImage" Path="bt_addfriend_plazz.png" Plist="public/public.plist"/>
-                <Children/>
+              <AbstractNodeData Name="addfriend_btn" Tag="160" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="367" Scale9Height="64" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
+                <Size X="385.0000" Y="82.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="273.5480" Y="69.8420" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.7169" Y="0.1834" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="PlistSubImage" Path="bt_addfriend_plazz.png" Plist="public/public.plist" />
+                <NormalFileData Type="PlistSubImage" Path="bt_addfriend_plazz.png" Plist="public/public.plist" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="ip_text" Tag="211" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="False" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0" Y="0"/>
-                <Size X="0" Y="0"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="532" Y="55"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="232" B="170" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="ip_text" Tag="211" IconVisible="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="532.0000" Y="55.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="232" B="170" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
-              <AbstractNodeData ctype="TextObjectData" Name="distance_text" Tag="210" VisibleForFrame="True" Alpha="255" ZOrder="0" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" TouchEnable="False" TouchScaleChangeAble="False" LabelText="" AreaWidth="0" AreaHeight="0" HorizontalAlignmentType="HT_Left" VerticalAlignmentType="VT_Top" FontName="" FontSize="20" IsCustomSize="False" OutlineEnabled="False" GlowEnabled="False" ShadowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ShadowBlurRadius="0">
-                <PreSize X="0" Y="0"/>
-                <Size X="0" Y="0"/>
-                <AnchorPoint ScaleX="0" ScaleY="0.5"/>
-                <Position X="660" Y="27"/>
-                <Scale ScaleX="1" ScaleY="1"/>
-                <OutlineColor R="0" G="63" B="198" A="255"/>
-                <ShadowColor R="0" G="63" B="198" A="255"/>
-                <GlowColor R="0" G="63" B="198" A="255"/>
-                <CColor R="255" G="232" B="170" A="255"/>
-                <Children/>
+              <AbstractNodeData Name="distance_text" Tag="210" IconVisible="True" FontSize="20" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="660.0000" Y="27.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="232" B="170" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="0" G="63" B="198" />
+                <ShadowColor A="255" R="0" G="63" B="198" />
+                <GlowColor R="0" G="63" B="198" A="255" />
               </AbstractNodeData>
             </Children>
+            <AnchorPoint />
+            <Position X="397.0000" Y="152.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="PlistSubImage" Path="bg_kuang_plazz_normal.png" Plist="public/public.plist" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
-      <Animation Duration="0" Speed="1"/>
     </Content>
   </Content>
 </GameFile>
-
