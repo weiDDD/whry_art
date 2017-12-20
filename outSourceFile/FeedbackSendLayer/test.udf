@@ -9,10 +9,7 @@
     </Item>
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="feedback/FeedbackSendLayer.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="feedback/FeedbackSendLayer.csd" />
+        <ActiveDocument />
       </Value>
     </Item>
   </Properties>
