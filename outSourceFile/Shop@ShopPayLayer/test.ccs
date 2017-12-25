@@ -1,33 +1,32 @@
 <Solution>
-  <PropertyGroup Version="2.3.0.0" Type="CocosStudio" Name="test"/>
+  <PropertyGroup Name="test" Version="3.10.0.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="Shop">
-          <PlistImageFolder Name=".Shop_PList.Dir" Image="Shop.png" PListFile="Shop.plist">
-            <PlistImageFile Name="bt_shop_confirm_1_0.png" Key="bt_shop_confirm_1_0.png"/>
-            <PlistImageFile Name="bt_shop_close_0.png" Key="bt_shop_close_0.png"/>
-            <PlistImageFile Name="box_shop_0.png" Key="box_shop_0.png"/>
-            <PlistImageFile Name="bt_shop_close_1.png" Key="bt_shop_close_1.png"/>
-            <PlistImageFile Name="box_shop_1.png" Key="box_shop_1.png"/>
-            <PlistImageFile Name="bt_shop_pay4.png" Key="bt_shop_pay4.png"/>
-            <PlistImageFile Name="bt_shop_back_0.png" Key="bt_shop_back_0.png"/>
-            <PlistImageFile Name="bt_shop_back_1.png" Key="bt_shop_back_1.png"/>
-            <PlistImageFile Name="bt_shop_cancel_1_0.png" Key="bt_shop_cancel_1_0.png"/>
-            <PlistImageFile Name="bt_shop_cancel_1_1.png" Key="bt_shop_cancel_1_1.png"/>
-            <PlistImageFile Name="bt_shop_confirm_1_1.png" Key="bt_shop_confirm_1_1.png"/>
-            <PlistImageFile Name="bt_shop_pay3.png" Key="bt_shop_pay3.png"/>
-            <PlistImageFile Name="shop_pay_bg.png" Key="shop_pay_bg.png"/>
-            <PlistImageFile Name="shop_pay_name.png" Key="shop_pay_name.png"/>
-            <PlistImageFile Name="shop_pay_price.png" Key="shop_pay_price.png"/>
-            <PlistImageFile Name="shop_pay_title.png" Key="shop_pay_title.png"/>
-            <PlistImageFile Name="shop_pay_type.png" Key="shop_pay_type.png"/>
-            <PlistImageFile Name="sp_shop_jftpay.png" Key="sp_shop_jftpay.png"/>
+          <PlistImageFolder Image="Shop.png" PListFile="Shop.plist" Name=".Shop_PList.Dir">
+            <PlistImageFile Name="box_shop_0.png" Key="box_shop_0.png" />
+            <PlistImageFile Name="box_shop_1.png" Key="box_shop_1.png" />
+            <PlistImageFile Name="bt_shop_back_0.png" Key="bt_shop_back_0.png" />
+            <PlistImageFile Name="bt_shop_back_1.png" Key="bt_shop_back_1.png" />
+            <PlistImageFile Name="bt_shop_cancel_1_0.png" Key="bt_shop_cancel_1_0.png" />
+            <PlistImageFile Name="bt_shop_cancel_1_1.png" Key="bt_shop_cancel_1_1.png" />
+            <PlistImageFile Name="bt_shop_close_0.png" Key="bt_shop_close_0.png" />
+            <PlistImageFile Name="bt_shop_close_1.png" Key="bt_shop_close_1.png" />
+            <PlistImageFile Name="bt_shop_confirm_1_0.png" Key="bt_shop_confirm_1_0.png" />
+            <PlistImageFile Name="bt_shop_confirm_1_1.png" Key="bt_shop_confirm_1_1.png" />
+            <PlistImageFile Name="bt_shop_pay3.png" Key="bt_shop_pay3.png" />
+            <PlistImageFile Name="bt_shop_pay4.png" Key="bt_shop_pay4.png" />
+            <PlistImageFile Name="shop_pay_bg.png" Key="shop_pay_bg.png" />
+            <PlistImageFile Name="shop_pay_name.png" Key="shop_pay_name.png" />
+            <PlistImageFile Name="shop_pay_price.png" Key="shop_pay_price.png" />
+            <PlistImageFile Name="shop_pay_title.png" Key="shop_pay_title.png" />
+            <PlistImageFile Name="shop_pay_type.png" Key="shop_pay_type.png" />
+            <PlistImageFile Name="sp_shop_jftpay.png" Key="sp_shop_jftpay.png" />
           </PlistImageFolder>
-          <Project Name="ShopPayLayer.csd" Type="Layer"/>
+          <Project Name="ShopPayLayer.csd" Type="Layer" />
         </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>
 </Solution>
-
