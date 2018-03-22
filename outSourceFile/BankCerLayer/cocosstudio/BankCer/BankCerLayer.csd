@@ -17,7 +17,7 @@
             <SingleColor A="255" R="0" G="0" B="0" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
-            <ColorVector ScaleX="0.0000" ScaleY="1.0000" />
+            <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
           <AbstractNodeData Name="image_bg" Tag="125" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" ctype="ImageViewObjectData">
             <Size X="1077.0000" Y="609.0000" />
@@ -30,7 +30,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_bank_certitle.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_bank_certitle.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="sp_banksendnick_3" Tag="127" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" IntelliShadingEnabled="False" ctype="SpriteObjectData">
@@ -41,7 +41,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_banksendnick.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_banksendnick.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="sp_banksenduid_4" Tag="128" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" IntelliShadingEnabled="False" ctype="SpriteObjectData">
@@ -52,7 +52,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_banksenduid.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_banksenduid.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="txt_senduid" Tag="141" IconVisible="True" FontSize="30" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
@@ -75,7 +75,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_bank_sendtip.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_bank_sendtip.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="sp_bankrecnick_6" Tag="130" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" IntelliShadingEnabled="False" ctype="SpriteObjectData">
@@ -86,7 +86,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_bankrecnick.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_bankrecnick.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="sp_bankrecid_7" Tag="131" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" IntelliShadingEnabled="False" ctype="SpriteObjectData">
@@ -97,7 +97,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_bankrecid.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_bankrecid.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="txt_recuid" Tag="142" IconVisible="True" FontSize="30" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
@@ -120,7 +120,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_banksendcount.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_banksendcount.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="atlas_sendnum" Tag="140" IconVisible="True" CharWidth="20" CharHeight="27" LabelText="" StartChar="0" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FlipX="False" FlipY="False" ctype="TextAtlasObjectData">
@@ -131,7 +131,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <LabelAtlasFileImage_CNB Type="Normal" Path="Bank/atlas_bank_num.png" Plist="" />
+                <LabelAtlasFileImage_CNB Type="Normal" Path="BankCer/atlas_bank_num.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="sp_bankcapital_9" Tag="133" IconVisible="True" Rotation3D_X="0" Rotation3D_Y="0" StretchWidthEnable="False" StretchHeightEnable="False" CascadeColorEnabled="True" CascadeOpacityEnabled="True" IntelliShadingEnabled="False" ctype="SpriteObjectData">
                 <Size X="77.0000" Y="33.0000" />
@@ -141,7 +141,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_bankcapital.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_bankcapital.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="txt_sendnum" Tag="139" IconVisible="True" FontSize="30" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
@@ -164,7 +164,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_banksend_date.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_banksend_date.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="txt_date" Tag="60" IconVisible="True" FontSize="30" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
@@ -187,7 +187,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_bankcerno.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_bankcerno.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="txt_cerno" Tag="61" IconVisible="True" FontSize="30" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" AreaWidth="0" AreaHeight="0" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="TextObjectData">
@@ -210,7 +210,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Bank/sp_bank_sendres.png" Plist="" />
+                <FileData Type="Normal" Path="BankCer/sp_bank_sendres.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
               <AbstractNodeData Name="btn_share" Tag="135" IconVisible="True" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="123" Scale9Height="31" OutlineSize="0" ShadowOffsetX="0.0000" ShadowOffsetY="0.0000" Rotation3D_X="0" Rotation3D_Y="0" CascadeColorEnabled="True" CascadeOpacityEnabled="True" FontName="" GlowEnabled="False" BoldEnabled="False" UnderlineEnabled="False" ItalicsEnabled="False" StrikethroughEnabled="False" ctype="ButtonObjectData">
@@ -222,8 +222,8 @@
                 <PrePosition />
                 <PreSize X="0.1421" Y="0.0870" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="Bank/btn_bankshare_0.png" Plist="" />
-                <NormalFileData Type="Normal" Path="Bank/btn_bankshare_0.png" Plist="" />
+                <DisabledFileData Type="Normal" Path="BankCer/btn_bankshare_0.png" Plist="" />
+                <NormalFileData Type="Normal" Path="BankCer/btn_bankshare_0.png" Plist="" />
                 <OutlineColor A="255" R="0" G="63" B="198" />
                 <ShadowColor A="255" R="0" G="63" B="198" />
                 <GlowColor R="0" G="63" B="198" A="255" />
@@ -237,8 +237,8 @@
                 <PrePosition />
                 <PreSize X="0.1421" Y="0.0870" />
                 <TextColor A="255" R="65" G="65" B="70" />
-                <DisabledFileData Type="Normal" Path="Bank/btn_banksavepic_0.png" Plist="" />
-                <NormalFileData Type="Normal" Path="Bank/btn_banksavepic_0.png" Plist="" />
+                <DisabledFileData Type="Normal" Path="BankCer/btn_banksavepic_0.png" Plist="" />
+                <NormalFileData Type="Normal" Path="BankCer/btn_banksavepic_0.png" Plist="" />
                 <OutlineColor A="255" R="0" G="63" B="198" />
                 <ShadowColor A="255" R="0" G="63" B="198" />
                 <GlowColor R="0" G="63" B="198" A="255" />
@@ -262,7 +262,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.8073" Y="0.8120" />
-            <FileData Type="Normal" Path="Bank/sp_bank_cerbg.png" Plist="" />
+            <FileData Type="Normal" Path="BankCer/sp_bank_cerbg.png" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

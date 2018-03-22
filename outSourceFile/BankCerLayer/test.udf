@@ -10,10 +10,9 @@
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="Bank/BankCerLayer.csd" />
-          <FilePathData Path="Checkin/MemberGiftLayer.csd" />
+          <FilePathData Path="Bank/BankLayer.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="Bank/BankCerLayer.csd" />
+        <ActiveDocument Path="Bank/BankLayer.csd" />
       </Value>
     </Item>
   </Properties>

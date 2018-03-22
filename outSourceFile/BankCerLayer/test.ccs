@@ -3,7 +3,7 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Folder Name="Bank">
+        <Folder Name="BankCer">
           <Image Name="atlas_bank_num.png" />
           <Project Name="BankCerLayer.csd" Type="Layer" />
           <Image Name="btn_banksavepic_0.png" />
@@ -25,6 +25,26 @@
           <Image Name="bt_vip_confirm_0.png" />
           <Image Name="frame_vip_0.png" />
           <Project Name="MemberGiftLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="Bank">
+          <Image Name="bank_bg.png" />
+          <Image Name="bank_bg1.png" />
+          <Image Name="bank_bg2.png" />
+          <Image Name="bank_bg3.png" />
+          <Image Name="bank_bg4.png" />
+          <Image Name="bank_biao.png" />
+          <Image Name="bank_btn1.png" />
+          <Image Name="bank_btn2.png" />
+          <Image Name="bank_btn3.png" />
+          <Image Name="bank_btn4.png" />
+          <Image Name="bank_btn5.png" />
+          <Image Name="bank_btn-x.png" />
+          <Image Name="bank_ka.png" />
+          <Image Name="bank_line1.png" />
+          <Image Name="bank_line2.png" />
+          <Image Name="bank_qianbao.png" />
+          <Image Name="bank_title_word.png" />
+          <Project Name="BankLayer.csd" Type="Scene" />
         </Folder>
       </RootFolder>
     </Group>
