@@ -53,7 +53,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="saveTakeBtnPanel" ActionTag="83596977" Tag="38" IconVisible="False" LeftMargin="176.2163" RightMargin="957.7837" TopMargin="181.7017" BottomMargin="468.2983" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="saveTakeBtnPanel" ActionTag="83596977" Tag="38" IconVisible="False" LeftMargin="176.2163" RightMargin="957.7837" TopMargin="181.7017" BottomMargin="468.2983" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="200.0000" Y="100.0000" />
             <Children>
               <AbstractNodeData Name="saveTakeBtn_selected" ActionTag="-212856920" Tag="37" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="42" ButtonText="存取" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -101,7 +101,7 @@
           <AbstractNodeData Name="giftBtnPanel" ActionTag="-1464172466" Tag="39" IconVisible="False" LeftMargin="176.2163" RightMargin="957.7837" TopMargin="311.2728" BottomMargin="338.7272" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="200.0000" Y="100.0000" />
             <Children>
-              <AbstractNodeData Name="giftBtn_selected" ActionTag="1365941297" Tag="40" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="42" ButtonText="存取" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="giftBtn_selected" ActionTag="1365941297" Tag="40" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="42" ButtonText="赠送" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="159.0000" Y="68.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="100.0000" Y="40.0000" />
@@ -146,7 +146,7 @@
           <AbstractNodeData Name="giftRecordBtnPanel" ActionTag="-30481126" Tag="42" IconVisible="False" LeftMargin="176.2163" RightMargin="957.7837" TopMargin="440.8439" BottomMargin="209.1561" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="200.0000" Y="100.0000" />
             <Children>
-              <AbstractNodeData Name="giftRecordBtn_selected" ActionTag="1853846213" Tag="43" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="36" ButtonText="存取" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="giftRecordBtn_selected" ActionTag="1853846213" Tag="43" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="36" ButtonText="赠送记录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="159.0000" Y="68.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="100.0000" Y="40.0000" />
@@ -188,7 +188,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="saveTakeCtxPanel" Visible="False" ActionTag="905166004" Tag="45" IconVisible="False" HorizontalEdge="RightEdge" LeftMargin="386.0448" RightMargin="177.9552" TopMargin="169.0000" BottomMargin="131.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="saveTakeCtxPanel" Visible="False" ActionTag="905166004" Tag="45" IconVisible="False" HorizontalEdge="RightEdge" LeftMargin="386.0448" RightMargin="177.9552" TopMargin="169.0000" BottomMargin="131.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="770.0000" Y="450.0000" />
             <Children>
               <AbstractNodeData Name="bg1" ActionTag="-751800558" Tag="48" IconVisible="False" LeftMargin="48.6808" RightMargin="33.3192" TopMargin="3.6448" BottomMargin="311.3552" LeftEage="227" RightEage="227" TopEage="44" BottomEage="44" Scale9OriginX="227" Scale9OriginY="44" Scale9Width="234" Scale9Height="47" ctype="ImageViewObjectData">
@@ -359,6 +359,17 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
+              <AbstractNodeData Name="tipText" ActionTag="-1264930184" Tag="50" IconVisible="False" LeftMargin="283.1943" RightMargin="148.8057" TopMargin="151.1562" BottomMargin="272.8438" FontSize="26" LabelText="默认密码123456，请尽快修改" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="338.0000" Y="26.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="452.1943" Y="285.8438" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="220" G="220" B="220" />
+                <PrePosition X="0.5873" Y="0.6352" />
+                <PreSize X="0.4390" Y="0.0578" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
             </Children>
             <AnchorPoint />
             <Position X="386.0448" Y="131.0000" />
@@ -371,7 +382,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="giftCtxPanel" Visible="False" ActionTag="-1241550561" Tag="62" IconVisible="False" LeftMargin="386.0000" RightMargin="178.0000" TopMargin="169.0000" BottomMargin="131.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="giftCtxPanel" ActionTag="-1241550561" Tag="62" IconVisible="False" LeftMargin="386.0000" RightMargin="178.0000" TopMargin="169.0000" BottomMargin="131.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="770.0000" Y="450.0000" />
             <Children>
               <AbstractNodeData Name="giftIdWord" ActionTag="2069933172" Tag="63" IconVisible="False" LeftMargin="99.2075" RightMargin="544.7925" TopMargin="76.1174" BottomMargin="337.8826" FontSize="36" LabelText="赠送ID:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -449,10 +460,10 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="bankPassInputBg" ActionTag="789896933" Tag="70" IconVisible="False" LeftMargin="256.4694" RightMargin="94.5306" TopMargin="286.8688" BottomMargin="105.1312" LeftEage="138" RightEage="138" TopEage="19" BottomEage="19" Scale9OriginX="138" Scale9OriginY="19" Scale9Width="143" Scale9Height="20" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="giftBankPassInputBg" ActionTag="789896933" Tag="70" IconVisible="False" LeftMargin="256.4694" RightMargin="94.5306" TopMargin="286.8688" BottomMargin="105.1312" LeftEage="138" RightEage="138" TopEage="19" BottomEage="19" Scale9OriginX="138" Scale9OriginY="19" Scale9Width="143" Scale9Height="20" ctype="ImageViewObjectData">
                 <Size X="419.0000" Y="58.0000" />
                 <Children>
-                  <AbstractNodeData Name="bankPassInput" ActionTag="1205598489" Tag="71" IconVisible="False" LeftMargin="10.3475" RightMargin="8.6525" TopMargin="8.1423" BottomMargin="9.8577" TouchEnable="True" FontSize="36" IsCustomSize="True" LabelText="" PlaceHolderText="请输入银行密码" MaxLengthText="10" ctype="TextFieldObjectData">
+                  <AbstractNodeData Name="giftBankPassInput" ActionTag="1205598489" Tag="71" IconVisible="False" LeftMargin="10.3475" RightMargin="8.6525" TopMargin="8.1423" BottomMargin="9.8577" TouchEnable="True" FontSize="36" IsCustomSize="True" LabelText="" PlaceHolderText="请输入银行密码" MaxLengthText="10" ctype="TextFieldObjectData">
                     <Size X="400.0000" Y="40.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="210.3475" Y="29.8577" />
@@ -470,7 +481,7 @@
                 <PreSize X="0.5442" Y="0.1289" />
                 <FileData Type="Normal" Path="Bank/bank_bg3.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="giftBtn" ActionTag="1001360593" Tag="72" IconVisible="False" LeftMargin="300.5249" RightMargin="310.4751" TopMargin="379.8004" BottomMargin="2.1996" TouchEnable="True" FontSize="36" ButtonText="赠送" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="giftMoneyBtn" ActionTag="1001360593" Tag="72" IconVisible="False" LeftMargin="300.5249" RightMargin="310.4751" TopMargin="379.8004" BottomMargin="2.1996" TouchEnable="True" FontSize="36" ButtonText="赠送" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="159.0000" Y="68.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="380.0249" Y="36.1996" />
@@ -482,6 +493,17 @@
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
                 <PressedFileData Type="Normal" Path="Bank/bank_btn3.png" Plist="" />
                 <NormalFileData Type="Normal" Path="Bank/bank_btn3.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="giftMoneyWord" ActionTag="-1626934254" Tag="51" IconVisible="False" LeftMargin="261.1891" RightMargin="508.8109" TopMargin="259.5947" BottomMargin="190.4053" FontSize="30" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position X="261.1891" Y="190.4053" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.3392" Y="0.4231" />
+                <PreSize X="0.0000" Y="0.0000" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -497,8 +519,93 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="GiftRecordPanel" ActionTag="-315506422" Tag="73" IconVisible="False" LeftMargin="386.0000" RightMargin="178.0000" TopMargin="169.0000" BottomMargin="131.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="GiftRecordPanel" Visible="False" ActionTag="-315506422" Tag="73" IconVisible="False" LeftMargin="386.0000" RightMargin="178.0000" TopMargin="169.0000" BottomMargin="131.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="770.0000" Y="450.0000" />
+            <Children>
+              <AbstractNodeData Name="titleWordPanel" ActionTag="-1417783927" Tag="43" IconVisible="False" LeftMargin="-0.0002" RightMargin="0.0002" TopMargin="-8.9938" BottomMargin="408.9938" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="770.0000" Y="50.0000" />
+                <Children>
+                  <AbstractNodeData Name="word1" ActionTag="1816235612" Tag="44" IconVisible="False" LeftMargin="40.1990" RightMargin="625.8010" TopMargin="12.8330" BottomMargin="11.1670" FontSize="26" LabelText="交易日期" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="104.0000" Y="26.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="92.1990" Y="24.1670" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.1197" Y="0.4833" />
+                    <PreSize X="0.1351" Y="0.5200" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="word1_0" ActionTag="1875851769" Tag="45" IconVisible="False" LeftMargin="246.4304" RightMargin="419.5696" TopMargin="12.8328" BottomMargin="11.1672" FontSize="26" LabelText="交易类型" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="104.0000" Y="26.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="298.4304" Y="24.1672" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.3876" Y="0.4833" />
+                    <PreSize X="0.1351" Y="0.5200" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="word1_1" ActionTag="366750773" Tag="46" IconVisible="False" LeftMargin="376.6603" RightMargin="289.3397" TopMargin="12.8329" BottomMargin="11.1671" FontSize="26" LabelText="交易金额" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="104.0000" Y="26.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="428.6603" Y="24.1671" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5567" Y="0.4833" />
+                    <PreSize X="0.1351" Y="0.5200" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="word1_2" ActionTag="597233679" Tag="47" IconVisible="False" LeftMargin="526.8959" RightMargin="165.1041" TopMargin="12.8329" BottomMargin="11.1671" FontSize="26" LabelText="转账ID" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="78.0000" Y="26.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="565.8959" Y="24.1671" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7349" Y="0.4833" />
+                    <PreSize X="0.1013" Y="0.5200" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="word1_3" ActionTag="-1018506065" Tag="48" IconVisible="False" LeftMargin="650.1281" RightMargin="41.8719" TopMargin="12.8329" BottomMargin="11.1671" FontSize="26" LabelText="服务费" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="78.0000" Y="26.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="689.1281" Y="24.1671" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.8950" Y="0.4833" />
+                    <PreSize X="0.1013" Y="0.5200" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint />
+                <Position X="-0.0002" Y="408.9938" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.0000" Y="0.9089" />
+                <PreSize X="1.0000" Y="0.1111" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="recordScrollPanel" ActionTag="-1620705838" Tag="49" IconVisible="False" TopMargin="45.9999" BottomMargin="-5.9999" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                <Size X="770.0000" Y="410.0000" />
+                <AnchorPoint />
+                <Position Y="-5.9999" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition Y="-0.0133" />
+                <PreSize X="1.0000" Y="0.9111" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </AbstractNodeData>
+            </Children>
             <AnchorPoint />
             <Position X="386.0000" Y="131.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
