@@ -146,7 +146,7 @@
           <AbstractNodeData Name="giftRecordBtnPanel" ActionTag="-30481126" Tag="42" IconVisible="False" LeftMargin="176.2163" RightMargin="957.7837" TopMargin="440.8439" BottomMargin="209.1561" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="200.0000" Y="100.0000" />
             <Children>
-              <AbstractNodeData Name="giftRecordBtn_selected" ActionTag="1853846213" Tag="43" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="36" ButtonText="赠送记录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="giftRecordBtn_selected" ActionTag="1853846213" Tag="43" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="36" ButtonText="操作记录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="159.0000" Y="68.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="100.0000" Y="40.0000" />
@@ -161,7 +161,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="giftRecordBtn" ActionTag="-1313167115" Tag="44" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="36" ButtonText="赠送记录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="giftRecordBtn" ActionTag="-1313167115" Tag="44" IconVisible="False" LeftMargin="20.5000" RightMargin="20.5000" TopMargin="26.0000" BottomMargin="6.0000" TouchEnable="True" FontSize="36" ButtonText="操作记录" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="129" Scale9Height="46" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="159.0000" Y="68.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="100.0000" Y="40.0000" />

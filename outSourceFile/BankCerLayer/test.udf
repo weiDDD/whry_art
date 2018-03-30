@@ -28,9 +28,9 @@
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="Bank/BankLayer.csd" />
+          <FilePathData Path="BankCer/BankCerLayer.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="Bank/BankLayer.csd" />
+        <ActiveDocument Path="BankCer/BankCerLayer.csd" />
       </Value>
     </Item>
   </Properties>
