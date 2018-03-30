@@ -28,7 +28,6 @@
           <Project Name="BankCerLayer.csd" Type="Layer" />
           <Image Name="btn_banksavepic_0.png" />
           <Image Name="btn_bankshare_0.png" />
-          <Image Name="img19.png" />
           <Image Name="sp_bank_cerbg.png" />
           <Image Name="sp_bank_certitle.png" />
           <Image Name="sp_bank_sendres.png" />

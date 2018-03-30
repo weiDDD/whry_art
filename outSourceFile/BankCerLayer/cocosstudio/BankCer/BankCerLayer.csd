@@ -254,7 +254,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5307" />
             <PreSize X="0.8073" Y="0.8120" />
-            <FileData Type="Normal" Path="BankCer/img19.png" Plist="" />
+            <FileData Type="Normal" Path="BankCer/sp_bank_cerbg.png" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
